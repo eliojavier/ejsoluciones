@@ -1,0 +1,14 @@
+<templateSet group="user">
+  <template name="tfield" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    {!! Form::label('nombre', 'Nombre') !!}&#10;    {!! Form::text('nombre', null, ['class' =&gt; 'form-control']) !!}&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="subm" value="&lt;div class=&quot;form-group&quot;&gt;&#10;    {!! Form::submit('Agregar Producto', ['class' =&gt; 'btn btn-primary form-control']) !!}&#10;&lt;/div&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>
