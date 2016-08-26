@@ -1,0 +1,32 @@
+<templateSet group="Form Laravel">
+  <template name="formopen" value="{!!Form::open(['url'=&gt;''])!!}&#10;{!!Form::submit('')!!}&#10;{!!Form::close()!!}" description="Formulario Laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="formlabel" value="{!!Form::label('','')!!}" description="Label Laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="formtext" value="{!!Form::text('')!!}}" description="InputText Laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="formpass" value="{!!Form::password('password')!!}" description="Password Laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="formselect" value="{!!Form::select('', $array)!!}" description="Select Laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
