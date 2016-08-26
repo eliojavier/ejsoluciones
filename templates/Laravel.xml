@@ -1,0 +1,7 @@
+<templateSet group="Laravel">
+  <template name="extends" value="@extends('layouts.app')&#10;@section('content')&#10;@endsection" description="Extends" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
