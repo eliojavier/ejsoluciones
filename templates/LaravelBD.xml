@@ -1,0 +1,12 @@
+<templateSet group="LaravelBD">
+  <template name="fk" value="$table-&gt;foreign('user_id')&#10;      -&gt;references('id')-&gt;on('users')&#10;      -&gt;onDelete('cascade');" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="t" value="$table-&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
