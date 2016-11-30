@@ -5,13 +5,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="formlabel" value="{!!Form::label('','')!!}&#10;" description="Label Laravel" toReformat="false" toShortenFQNames="true">
+  <template name="formlabel" value="{!!Form::label('name','value')!!}&#10;" description="Label Laravel" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="formtext" value="{!!Form::text('')!!}&#10;" description="InputText Laravel" toReformat="false" toShortenFQNames="true">
+  <template name="formtext" value="{!!Form::text('name')!!}&#10;" description="InputText Laravel" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="PHP" value="true" />
@@ -23,7 +23,13 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="formselect" value="{!!Form::select('', $array, null, ['class' =&gt; 'form-control'])!!}&#10;" description="Select Laravel" toReformat="false" toShortenFQNames="true">
+  <template name="formselect" value="{!!Form::select('name', $array, null, ['class' =&gt; 'form-control'])!!}&#10;" description="Select Laravel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML_TEXT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="formcheck" value="{!!Form::checkbox('name', 'value')!!}" description="Check Laravel" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML_TEXT" value="true" />
       <option name="PHP" value="true" />
